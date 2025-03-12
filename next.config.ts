@@ -1,14 +1,29 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['20.163.180.176',
-    'mdjobayerarafat.live',
-    'www.mdjobayerarafat.live'],
-    unoptimized: false,
+    remotePatterns: [
+      {
+        protocol: 'http',
+        hostname: '20.163.180.176'
+      },
+      {
+        protocol: 'https',
+        hostname: '20.163.180.176'
+      },
+      {
+        protocol: 'https',
+        hostname: 'mdjobayerarafat.live'
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.mdjobayerarafat.live'
+      }
+    ],
+    unoptimized: false
   },
   typescript: {
-    ignoreBuildErrors: true,
-  },
+    ignoreBuildErrors: true
+  }
 };
 
 module.exports = nextConfig;
