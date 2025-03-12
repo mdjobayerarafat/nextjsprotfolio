@@ -16,7 +16,7 @@ const BlogCard: React.FC<BlogCardProps> = ({ post }) => {
   }, [post.tags]);
 
   const getImageUrl = (coverImage: string) => {
-    if (!coverImage) return '/images/default-blog-cover.jpg';
+
 
     if (coverImage.startsWith('http')) {
       return coverImage;
