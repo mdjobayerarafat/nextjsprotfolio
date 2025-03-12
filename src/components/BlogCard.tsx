@@ -25,7 +25,7 @@ const BlogCard: React.FC<BlogCardProps> = ({ post }) => {
     }
 
     // Use localhost:8000 format for images
-    const baseUrl = 'http://20.163.180.176';
+    const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://20.163.180.176';
     return `${baseUrl}/static/${post.coverImage.replace(/^\/uploads\/|^\/static\/|^\//g, '')}`;
   }, [post.coverImage]);
 
