@@ -9,25 +9,24 @@ interface BlogCardProps {
 }
 
 const BlogCard: React.FC<BlogCardProps> = ({ post }) => {
-  // Handle tags
   const tagsArray = React.useMemo(() => {
     if (!post.tags) return [];
     if (Array.isArray(post.tags)) return post.tags;
     return [post.tags];
   }, [post.tags]);
 
-  // Fix image URL formatting
-  const imageUrl = React.useMemo(() => {
-    if (!post.coverImage) return '/images/default-blog-cover.jpg';
+  const getImageUrl = (coverImage: string) => {
+    if (!coverImage) return '/images/default-blog-cover.jpg';
 
-    if (post.coverImage.startsWith('http')) {
-      return post.coverImage;
+    if (coverImage.startsWith('http')) {
+      return coverImage;
     }
 
-    // Use localhost:8000 format for images
     const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://20.163.180.176';
-    return `${baseUrl}/static/${post.coverImage.replace(/^\/uploads\/|^\/static\/|^\//g, '')}`;
-  }, [post.coverImage]);
+    return `${baseUrl}/static/${coverImage.replace(/^\/uploads\/|^\/static\/|^\//g, '')}`;
+  };
+
+  const imageUrl = React.useMemo(() => getImageUrl(post.coverImage), [post.coverImage]);
 
   return (
     <div className="bg-secondary rounded-lg overflow-hidden border border-[#1E2D3D] transition-transform hover:-translate-y-1">
