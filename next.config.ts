@@ -1,7 +1,5 @@
 /** @type {import('next').NextConfig} */
                 const nextConfig = {
-                  distDir: 'dist',
-                  output: 'standalone',
                   images: {
                     domains: ['20.163.180.176', 'mdjobayerarafat.live', 'www.mdjobayerarafat.live'],
                     remotePatterns: [
