@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f6ea03b-43ae-40d5-93a0-3c7b4699b981" name="Changes" comment="update blogwrf">
+    <list default="true" id="0f6ea03b-43ae-40d5-93a0-3c7b4699b981" name="Changes" comment="update blogwrf hostnazmer">
       <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +74,7 @@
       <workItem from="1741794221237" duration="18617000" />
       <workItem from="1741815886165" duration="6214000" />
       <workItem from="1741854680895" duration="13000" />
-      <workItem from="1741856820664" duration="208000" />
+      <workItem from="1741856820664" duration="541000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -148,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741821624599</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update blogwrf hostnazmer">
+      <option name="closed" value="true" />
+      <created>1741857140573</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1741857140573</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +181,8 @@
     <MESSAGE value="update blog" />
     <MESSAGE value="update blogw" />
     <MESSAGE value="update blogwrf" />
-    <option name="LAST_COMMIT_MESSAGE" value="update blogwrf" />
+    <MESSAGE value="update blogwrf hostnazmer" />
+    <option name="LAST_COMMIT_MESSAGE" value="update blogwrf hostnazmer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

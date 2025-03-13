@@ -1,5 +1,6 @@
 const nextConfig = {
   images: {
+    unoptimized: true, // Disable Next.js image optimization
     domains: ['20.163.180.176', 'mdjobayerarafat.live', 'www.mdjobayerarafat.live'],
     remotePatterns: [
       {
