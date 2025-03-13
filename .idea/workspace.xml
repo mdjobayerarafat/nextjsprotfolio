@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f6ea03b-43ae-40d5-93a0-3c7b4699b981" name="Changes" comment="final update">
+    <list default="true" id="0f6ea03b-43ae-40d5-93a0-3c7b4699b981" name="Changes" comment="final update1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/blog-posts.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/certifications.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/extracurriculars.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/hackathons.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects/project1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects/project2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects/project3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects/project4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/research-interests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExtracurricularCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExtracurricularCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExtracurricularsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExtracurricularsSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ResearchInterestTag.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ResearchInterestTag.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ResearchInterestsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ResearchInterestsSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/types.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +77,7 @@
       <workItem from="1741854680895" duration="13000" />
       <workItem from="1741856820664" duration="541000" />
       <workItem from="1741874251911" duration="2946000" />
-      <workItem from="1741877419770" duration="1289000" />
+      <workItem from="1741877419770" duration="1531000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -181,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741877681031</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="final update1">
+      <option name="closed" value="true" />
+      <created>1741878849999</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1741878849999</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +202,8 @@
     <MESSAGE value="update blogwrf" />
     <MESSAGE value="update blogwrf hostnazmer" />
     <MESSAGE value="final update" />
-    <option name="LAST_COMMIT_MESSAGE" value="final update" />
+    <MESSAGE value="final update1" />
+    <option name="LAST_COMMIT_MESSAGE" value="final update1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
