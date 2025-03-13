@@ -1,7 +1,7 @@
 // src/lib/apiService.ts
 import { Project, Certification, Hackathon, Extracurricular, ResearchInterest } from './types';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://20.163.180.176';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://20.197.36.135/';
 
 /**
  * Generic API fetching function with error handling

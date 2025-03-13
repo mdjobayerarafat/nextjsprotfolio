@@ -22,7 +22,7 @@ const BlogCard: React.FC<BlogCardProps> = ({ post }) => {
       return coverImage;
     }
 
-    const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://20.163.180.176';
+    const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://20.197.36.135';
     return `${baseUrl}/static/${coverImage.replace(/^\/uploads\/|^\/static\/|^\//g, '')}`;
   };
 
