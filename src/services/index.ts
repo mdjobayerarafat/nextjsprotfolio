@@ -60,11 +60,11 @@ export const getHackathons = async (): Promise<Hackathon[]> => {
   return fetchAPI<Hackathon[]>('/hackathons');
 };
 
-// Extracurriculars API
+
+// src/services/index.ts
 export const getExtracurriculars = async (): Promise<Extracurricular[]> => {
   return fetchAPI<Extracurricular[]>('/extracurriculars');
 };
-
 // Research Interests API
 export const getResearchInterests = async (): Promise<ResearchInterest[]> => {
   return fetchAPI<ResearchInterest[]>('/research-interests');

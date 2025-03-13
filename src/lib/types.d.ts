@@ -50,12 +50,18 @@ export interface Certification {
   description?: string; // Add description for more detail
   slug: string;        // Add slug for URL-friendly paths
 }
+// src/lib/types.ts
 export interface Extracurricular {
+  id: number;
   title: string;
   description: string;
 }
 
-export type ResearchInterest = string;
+// src/lib/types.ts
+export interface ResearchInterest {
+  id: number;
+  interest: string;  // Changed from 'title' to 'interest' to match API model
+}
 
 export interface Skill {
   name: string;

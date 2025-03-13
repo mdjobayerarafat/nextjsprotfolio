@@ -1,6 +1,6 @@
 // src/components/ResearchInterestTag.tsx
 interface ResearchInterestTagProps {
-  interest: string;
+  interest: string;  // Keep as string since we're passing only the interest text
 }
 
 const ResearchInterestTag = ({ interest }: ResearchInterestTagProps) => {
